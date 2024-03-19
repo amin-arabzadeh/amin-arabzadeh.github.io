@@ -1,0 +1,564 @@
+*{
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+}
+
+.ul1{
+    display: flex;
+    height: 81px;
+    align-items: center;
+    list-style-type: none;
+}
+.ul2{
+    display: flex;
+    height: 81px;
+    align-items: center;
+    list-style-type: none;
+}
+
+li{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: 18px;
+}
+#img{
+    width: 80px;
+}
+.a1{
+    transition: all 100ms linear 0s;
+}
+.a2{
+    transition: all 100ms linear 0s;
+}
+.a3{
+    transition: all 100ms linear 0s;
+}
+.a4{
+    transition: all 100ms linear 0s;
+}
+.a5{
+    transition: all 100ms linear 0s;
+}
+.a6{
+    transition: all 100ms linear 0s;
+}
+.a1:hover{
+    color: #FFC82E;
+    border-bottom: 3px solid #FFC82E;
+}
+.a2:hover{
+    color: #FFC82E;
+    border-bottom: 3px solid #FFC82E;
+}
+.a3:hover{
+    color: #FFC82E;
+    border-bottom: 3px solid #FFC82E;
+}
+.a4:hover{
+    color: #FFC82E;
+    border-bottom: 3px solid #FFC82E;
+}
+.a5:hover{
+    color: #FFC82E;
+    border-bottom: 3px solid #FFC82E;
+}
+.a6:hover{
+    color: #FFC82E;
+    border-bottom: 3px solid #FFC82E;
+}
+.div-nav1{
+    margin-right: 95px;
+}
+.div-nav2{
+    margin-left: 30px;
+}
+#i1:hover{
+    background-color: gray;
+    border-radius: 30px;
+}
+#i2:hover{
+    background-color: gray;
+    border-radius: 30px;
+}
+#i3:hover{
+    background-color: gray;
+    border-radius: 30px;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+}
+.header-item{
+    border: 2px solid black;
+    width: 930px;
+    height: 450px;
+    background-image: url(image/62e28b0df0a0c1050794cba4_Fortnite-Characters-PNG-File.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+}
+h2{
+    padding-right: 90px;
+    transform: translateX(-160px);
+}
+.container1{
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+}
+.container1-box{
+    width: 650px;
+    height: 231px;
+    margin-left: 90px;
+    transform: translateX(130px);
+    border-radius: 13px;
+    box-shadow: 10px 0 5px #dedede,0 10px 5px #dedede;
+}
+.container1-h2{
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 20px;
+    transform: translateX(3px);
+    font-size: 30px;
+}
+.container1-p1{
+    padding: 30px 0 0 20px;
+}
+.container1-bttn{
+    width: 150px;
+    height: 48px;
+    border-radius: 13px;
+    background-color: #ffbc0e;
+    color: black;
+    font-size: 18px;
+    margin: 30px 0 0 20px;
+    cursor: pointer;
+}
+.container2{
+    width: 100%;
+    height: 600px;
+    margin-top: 25px;
+}
+.containeer2-box1{
+    width: 650px;
+    height: 550px;
+    transform: translateX(215px);
+    border-radius: 13px;
+    box-shadow: 10px 0 5px #dedede,0 10px 5px #dedede;
+}
+.container2-h2{
+    transform: translateX(20px);
+    font-size: 30px;
+}
+.img1{
+    width: 550px;
+    margin-left: 30px;
+}
+.img2{
+    width: 550px;
+    margin-left: 30px;
+}
+.container2-p{
+    padding: 20px 0 0 30px;
+}
+.container3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.container3-box1{
+    width: 650px;
+    height: 550px;
+    transform: translateX(215px);
+    box-shadow: 10px 0 5px #dedede,0 10px 5px #dedede;
+    border-radius: 13px;
+
+}
+.container3-h2{
+        transform: translateX(20px);
+        font-size: 30px;
+        padding-top: 20px;
+
+}
+.img3{
+    width: 650px;
+}
+.img4{
+    margin: 0 0 0 95px;
+    transform: translateX(450px);
+    height: 550px;
+}
+.container3-p{
+    padding: 20px 0 0 30px;
+}
+.container4{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f5f8;
+}
+.container4-box{
+    width: 700px;
+    height: 450px;
+    border-radius: 13px;
+    box-shadow: 10px 0 5px #dedede,0 10px 5px #dedede;
+    background-color: white;
+}
+.container4-h2{
+    transform: translateX(50px);
+    padding-top: 30px;
+    font-size: 40px;
+}
+.container4-div{
+    width:600px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.p1{
+    text-align: justify;
+}
+.container4-div2{
+    width:600px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.p2{
+    text-align: justify;
+}
+.container4-div3{
+    width:600px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.p3{
+    text-align: justify;
+}
+.container5{
+    width: 100%;
+    height: 890px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.containeer5-box{
+    width: 600px;
+    height: 870px;
+}
+.container5-h2{
+    transform: translateX(80px);
+    font-size: 34px;
+    padding-top: 20px;
+}
+#p1{
+    padding: 30px 0 0 80px;
+}
+#p2{
+    padding: 0 0 0 80px;
+}
+#p3{
+    padding: 0 20px 0 80px;
+}
+.line{
+    border: 1px solid #5f5f5f;
+    width: 450px;
+    margin: 20px 0 0 80px;
+}
+#p4{
+    padding: 30px 0 0 80px;
+}
+#p5{
+    padding: 0 0 0 80px;
+}
+#p6{
+    padding: 0 20px 0 80px;
+}
+.line2{
+    border: 1px solid #5f5f5f;
+    width: 450px;
+    margin: 20px 0 0 80px;
+}
+#p7{
+    padding: 30px 0 0 80px;
+}
+#p8{
+    padding: 0 0 0 80px;
+}
+#p9{
+    padding: 0 20px 0 80px;
+}
+.line3{
+    border: 1px solid #5f5f5f;
+    width: 450px;
+    margin: 20px 0 0 80px;
+}
+.container6{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+.container6-box{
+    width: 1230px;
+    height: 600px;
+    background-image: url(image/62e28b0df0a0c1050794cba4_Fortnite-Characters-PNG-File.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container7{
+    width: 100%;
+    height: 250px;
+    /* background-color: red; */
+}
+.container7-p1{
+    text-align: center;
+    font-size: 44px;
+}
+.container7-p2{
+    text-align: center;
+    color: #5f5f5f;
+    margin-top: 20px;
+}
+.form-item1{
+
+    text-align: center;
+    margin-top: 20px;
+}
+.email{
+    transform: translateX(-10px);
+    height: 40px;
+    width: 450px;
+    border: 1px solid #212121;
+    border-radius: 5px;
+    padding-left: 10px;
+    color:gray;
+    font-size: 16px;
+}
+.email:focus{
+    border-color: aqua;
+}
+.btn1{
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #ffbc0e;
+    color: #352f1e;
+    cursor: pointer;
+    transform: translatey(-2px);
+    font-size: 18px;
+}
+.btn1:hover{
+    background-color: #f8c43c;
+}
+.footer{
+    width: 100%;
+    height: 660px;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+}
+.box-footer{
+    margin-top: 50px;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+}
+.footer-item1{
+    width: 450px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.item1-d1{
+    font-size: 66px;
+    transform: translateY(-150px);
+    color: white;
+}
+.item1-d2{
+    color: white;
+    transform: translateY(-110px);
+}
+.item1-d3{
+    transform: translateY(-100px);
+}
+.footer-a1{
+    color: white;
+    font-size: 20px;
+}
+.footer-a2{
+    color: white;
+}
+.footer-a3{
+    color: white;
+}
+.footer-a4{
+    color: white;
+}
+.footer-a5{
+    color: white;
+}
+.footer-a6{
+    color: white;
+}
+.footer-a7{
+    color: white;
+}
+.footer-a1:hover{
+    text-decoration: underline;
+}
+.footer-item2{
+    width: 230px;
+    height: 600px;
+}
+.footer-a8{
+    color: white;
+}
+.footer-a8:hover{
+    text-decoration: underline;
+}
+.footer-a9{
+    color: white;
+}
+.footer-a9:hover{
+    text-decoration: underline;
+}
+.footer-a10{
+    color: white;
+}
+.footer-a10:hover{
+    text-decoration: underline;
+}
+.footer-a11{
+    color: white;
+}
+.footer-a11:hover{
+    text-decoration: underline;
+}
+.footer-a12{
+    color: white;
+}
+.footer-a12:hover{
+    text-decoration: underline;
+}
+.footer-a13{
+    color: white;
+}
+.footer-a13:hover{
+    text-decoration: underline;
+}
+.footer-a14{
+    color: white;
+}
+.footer-a14:hover{
+    text-decoration: underline;
+}
+.footer-a15{
+    color: white;
+}
+.footer-a15:hover{
+    text-decoration: underline;
+}
+.footer-a16{
+    color: white;
+}
+.footer-a16:hover{
+    text-decoration: underline;
+}
+.footer-item3{
+    width: 300px;
+    height: 600px;
+}
+.footer-a18{
+    color: white;
+}
+.footer-a18:hover{
+    text-decoration: underline;
+}
+.footer-a19{
+    color: white;
+}
+.footer-a19:hover{
+    text-decoration: underline;
+}
+.footer-a20{
+    color: white;
+}
+.footer-a20:hover{
+    text-decoration: underline;
+}
+.footer-a21{
+    color: white;
+}
+.footer-a21:hover{
+    text-decoration: underline;
+}
+.footer-a22{
+    color: white;
+}
+.footer-a22:hover{
+    text-decoration: underline;
+}
+.footer-a23{
+    color: white;
+}
+.footer-a23:hover{
+    text-decoration: underline;
+}
+.footer-a24{
+    color: white;
+}
+.footer-a24:hover{
+    text-decoration: underline;
+}
+.footer-a25{
+    color: white;
+}
+.footer-a25:hover{
+    text-decoration: underline;
+}
+.footer-a26{
+    color: white;
+}
+.footer-a26:hover{
+    text-decoration: underline;
+}
+.footer-ul1{
+    list-style-type: none;
+    padding-top: 100px;
+}
+.footer-ul2{
+    list-style-type: none;
+    padding-top: 100px;
+}
+.footer-p{
+    text-align: center;
+    background-color: #212121;
+    color: white;
+    height: 50px;
+}

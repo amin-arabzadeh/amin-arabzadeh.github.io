@@ -1,0 +1,223 @@
+@media all and (max-width:575px){
+    .form{
+        height: 40px;
+        width: 280px;
+        border-style: none;
+    }
+    .a::after{
+        content: '';
+        display: block;
+        width: 120px;
+        height: 5px;
+        background-image: linear-gradient(to right,blue,red);
+        margin-left: 145px;
+        transform: scaleX(0);
+        transition: all 350ms linear 1ms;
+    }
+    .a2::after{
+        content: '';
+        display: block;
+        width: 150px;
+        margin-left: 60px;
+        height: 5px;
+        transform: scaleX(0);
+        background-image: linear-gradient(to right,blue,red);
+        transition: all 350ms linear 1ms;
+    }
+}
+
+@media all and (min-width:576px) and (max-width:767px){
+    .form{
+        height: 40px;
+        width: 300px;
+        border-style: none;
+    }
+    .a::after{
+        content: '';
+        display: block;
+        width: 120px;
+        height: 5px;
+        background-image: linear-gradient(to right,blue,red);
+        margin-left: 180px;
+        transform: scaleX(0);
+        transition: all 350ms linear 1ms;
+    }
+    .a2::after{
+        content: '';
+        display: block;
+        width: 150px;
+        margin-left: 75px;
+        height: 5px;
+        transform: scaleX(0);
+        background-image: linear-gradient(to right,blue,red);
+        transition: all 350ms linear 1ms;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:991px){
+    .form{
+        height: 40px;
+        width: 300px;
+        border-style: none;
+    }
+    .a::after{
+        content: '';
+        display: block;
+        width: 120px;
+        height: 5px;
+        background-image: linear-gradient(to right,blue,red);
+        margin-left: 180px;
+        transform: scaleX(0);
+        transition: all 350ms linear 1ms;
+    }
+    .a2::after{
+        content: '';
+        display: block;
+        width: 150px;
+        margin-left: 75px;
+        height: 5px;
+        transform: scaleX(0);
+        background-image: linear-gradient(to right,blue,red);
+        transition: all 350ms linear 1ms;
+    }
+}
+
+@media all and (min-width:992px) and (max-width:1199px){
+    .form{
+        height: 40px;
+        width: 300px;
+        border-style: none;
+    }
+    .a::after{
+        content: '';
+        display: block;
+        width: 120px;
+        height: 5px;
+        background-image: linear-gradient(to right,blue,red);
+        margin-left: 180px;
+        transform: scaleX(0);
+        transition: all 350ms linear 1ms;
+    }
+    .a2::after{
+        content: '';
+        display: block;
+        width: 150px;
+        margin-left: 75px;
+        height: 5px;
+        transform: scaleX(0);
+        background-image: linear-gradient(to right,blue,red);
+        transition: all 350ms linear 1ms;
+    }
+}
+
+@media all and (min-width:1200px) and (max-width:1399px){
+    .form{
+        height: 40px;
+        width: 300px;
+        border-style: none;
+    }
+    .a::after{
+        content: '';
+        display: block;
+        width: 120px;
+        height: 5px;
+        background-image: linear-gradient(to right,blue,red);
+        margin-left: 180px;
+        transform: scaleX(0);
+        transition: all 350ms linear 1ms;
+    }
+    .a2::after{
+        content: '';
+        display: block;
+        width: 150px;
+        margin-left: 75px;
+        height: 5px;
+        transform: scaleX(0);
+        background-image: linear-gradient(to right,blue,red);
+        transition: all 350ms linear 1ms;
+    }
+}
+
+@media all and (min-width:1400px){
+    .form{
+        height: 40px;
+        width: 300px;
+        border-style: none;
+    }
+    .a::after{
+        content: '';
+        display: block;
+        width: 120px;
+        height: 5px;
+        background-image: linear-gradient(to right,blue,red);
+        margin-left: 180px;
+        transform: scaleX(0);
+        transition: all 350ms linear 1ms;
+    }
+    .a2::after{
+        content: '';
+        display: block;
+        width: 150px;
+        margin-left: 75px;
+        height: 5px;
+        transform: scaleX(0);
+        background-image: linear-gradient(to right,blue,red);
+        transition: all 350ms linear 1ms;
+    }
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+.full{
+    height: 1000px;
+    background-image: url(../image/Abstract-Gradient-Blue-Layers-AI-Generated-4K-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 300px;
+    height: 990px;
+}
+.box-item{
+    width: 600px;
+    height: 500px;
+}
+
+.input:focus:invalid{
+    border: 2px solid red;
+}
+.input:focus:valid{
+    border: 2px solid blue;
+}
+
+.a:hover::after{
+    transform: scaleX(1);
+}
+.a2:hover::after{
+    transform: scaleX(1);
+}
+
+.btn-login{
+    position: relative;
+    z-index: 1;
+}
+.btn-login::after{
+    content: '';
+    display: block;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    background-image: linear-gradient(to right,blue,red);
+    bottom: 0;
+    left: -300px;
+    border-radius: 20px;
+    z-index: -1;
+    transition: all 350ms linear 1ms;
+}
+.btn-login:hover::after{
+    left: 0;
+}
